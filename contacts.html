@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
+    <title> MICROSOFT TRAINING INSTITUTE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <section class="sub-header">
+        <div id="my_a"><a href=""><i class="fa fa-phone"></i><strong>Call:  </strong> <span>0792 750 371</span></a>
+        <a href="https://wa.me/254759433608?text=Hello!" target="_blank"><i class="fa fa-whatsapp"></i> <strong>Whatsapp:  </strong><span>0759 433 608</span></a></div>
+        <nav>
+        <a href="index.html"><img src="IMAGES/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                 <li><a href="about.html">ABOUT</a></li>
+                 <li><a href="courses.html">COURSES</a></li>
+                 <li><a href="contacts.html">CONTACTS</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1> Contact Us</h1>
+    </section>
+    
+    <!-------------------Contact Us---->
+    <section class="location">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4134.348810049619!2d36.68201211485344!3d-1.2161530991129337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f214734fec2f3%3A0xae581550d6f02608!2sGwa%20Cia!5e1!3m2!1sen!2ske!4v1676287122055!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+        <div>
+            <i class="fa fa-home"></i>
+            <span>
+            <h5> Find Us at Gwa Cia </h5>
+            <p> Kahuho-Wangige Road</p></span>
+            </div>
+            <div>
+            <i class="fa fa-phone"></i>
+                <span>
+                <h5> 0792750371</h5>
+                <h5> 0759433608</h5>
+                <p>Monday to Saturday, 8 am to 5pm </p></span>
+                </div>
+            <div>
+            <i class="fa fa-envelope-o"></i>
+                <span>
+                <h5>microsofttraininginstitute@<br>gmail.com </h5>
+                    <p>Email Us your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col" method="post">
+        <form action="form-handler.php" method="post">
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <input type="email" name="email" placeholder="Enter Your Email Address" required>
+            <input type="text" name="subject"placeholder="Enter Your Subject" required>
+            <textarea rows="8" name="message"placeholder="Message" required></textarea>
+            <button type="Submit" class="hero-btn red-btn"> Send Message </button>
+            </form>
+        </div>
+        </div>
+    </section>
+    
+<!-------------------footer---->
+ 
+    <section class="footer">
+    <h4>About Us</h4>
+        <p>Offering high quality education to our students</p>
+        <div class="icons">
+            <ul>    
+            <li><a href="https://www.facebook.com/profile.php?id=100088009734993" target="_blank"><i  class="fa fa-facebook"></i></a></li>
+            <li><i class="fa fa-twitter"></i></li>
+            <li> <i class="fa fa-instagram"></i></li>
+            <li><i class="fa fa-linkedin"></i></li>
+            </ul>
+        </div>
+        <p> Created with <i class="fa fa-heart-o"></i> by Eric Karanja</p>
+        <p> Microsoft training institute <i class="fa fa-copyright" > 2023. All Rights Reserved</i></p>
+    </section>
+    
+    
+    
+    
+<!--------Javascript for Toggle Menu------->
+  <script>
+      var navLinks = document.getElementById("navLinks");        function showMenu(){
+                            navLinks.style.right = "0";
+                                                       } 
+        function hideMenu(){
+                            navLinks.style.right = "-200px";
+                                                       }   
+     </script>
+    </body>
+</html> 
